@@ -1,0 +1,58 @@
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Fuera de la pantalla */
+  width: 250px;
+  height: 100vh;
+  background-color: #fdfdfd;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.menu-container.open {
+  left: 0; /* Se desliza dentro de la pantalla */
+}
+
+/* Botón "X" para cerrar */
+.close-button {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 3rem 0 0 0; /* para separarlo de la X */
+  padding: 0;
+}
+
+.menu-list li {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+/* Ejemplo: color lila en hover */
+.menu-list li:hover {
+  background-color: #eee;
+}
+
+/* Overlay oscuro */
+.overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 999;
+}

@@ -1,0 +1,11 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .main-content {
+    margin-top: 60px; 
+    padding: 1rem;
+  }
+  

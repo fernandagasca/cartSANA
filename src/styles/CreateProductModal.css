@@ -1,0 +1,80 @@
+/* Fondo semitransparente que cubre toda la pantalla */
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; 
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000; /* por encima de todo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Caja modal centrada */
+  .modal-content {
+    background-color: #fff;
+    width: 400px; /* Ajusta el ancho a tu gusto */
+    max-width: 90%; /* Responsivo: no más del 90% en pantallas pequeñas */
+    border-radius: 8px;
+    padding: 2rem;
+    position: relative; /* para posicionar el botón X */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  /* Botón para cerrar (X) */
+  .modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Título del modal */
+  .modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Formulario */
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-content form label {
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .modal-content form input,
+  .modal-content form textarea {
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Botón de submit */
+  .btn-submit {
+    background-color: #9b59b6; /* Lila */
+    border: none;
+    color: #fff;
+    padding: 0.8rem;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #8e44ad;
+  }
+  
