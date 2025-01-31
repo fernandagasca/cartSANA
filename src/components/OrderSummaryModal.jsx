@@ -16,7 +16,7 @@ function OrderSummaryModal({ isOpen, onClose, cartItems, customerId }) {
   const handleConfirmOrder = async () => {
     try {
       const orderData = {
-        customerId: 4, 
+        customerId: 1, 
         items: cartItems.map((item) => ({
           productId: item.product.id, 
           quantity: item.quantity,
