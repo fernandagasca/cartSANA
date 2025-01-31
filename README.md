@@ -1,8 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **📌 `Frontend/README.md`**
+```md
+# 🛒 ShoppingCartSANA - Frontend
 
-Currently, two official plugins are available:
+## 📌 Descripción
+Este es el frontend de **ShoppingCartSANA**, una aplicación desarrollada con **React** para gestionar el carrito de compras y procesar órdenes de compra.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 📦 Tecnologías Utilizadas
+- **React**
+- **Axios**
+- **CSS**
+- **JavaScript (ES6)**
+
+---
+
+## 🚀 Instalación y Configuración
+
+### 1️⃣ Clonar el repositorio
+```sh
+git clone https://github.com/fernandagasca/cartSANA.git
+git checkout frontend
+npm run dev
