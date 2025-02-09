@@ -13,7 +13,6 @@ Este es el backend de **ShoppingCartSANA**, una API desarrollada con **ASP.NET C
 - **Entity Framework Core**
 - **SQL Server**
 - **C#**
-- **JWT (Opcional, si usas autenticación)**
 
 ---
 
